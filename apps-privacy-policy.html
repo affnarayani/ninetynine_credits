@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps Privacy Policy - Ninety Nine Credits</title>
+    <meta name="description" content="Privacy policies for mobile applications developed by Ninety Nine Credits.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3391f1',
+                        'primary-dark': '#1a7ad9',
+                        'primary-light': '#5ba7f5',
+                        secondary: '#2b2d42',
+                        accent: '#ef476f',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .app-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .app-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .app-logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header py-4">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="index.html" class="logo-container">
+                    <div class="logo-wrapper">
+                        <div class="logo-bg"></div>
+                        <img src="assets/images/logo.png" alt="Ninety Nine Credits Logo" class="logo-image">
+                    </div>
+                    <span class="text-xl font-bold text-secondary">Ninety Nine Credits</span>
+                </a>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-primary focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="https://play.google.com/store/apps/dev?id=6637659798531987092" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-google-play mr-2"></i> Our Apps
+                    </a>
+                </nav>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t mt-4">
+            <div class="container mx-auto px-4 py-3 space-y-3">
+                <a href="index.html" class="block py-2 nav-link">Home</a>
+                <a href="about.html" class="block py-2 nav-link">About</a>
+                <a href="contact.html" class="block py-2 nav-link">Contact</a>
+                <a href="https://play.google.com/store/apps/dev?id=6637659798531987092" target="_blank" class="btn btn-primary w-full mt-4">
+                    <i class="fab fa-google-play mr-2"></i> Our Apps
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-primary text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 animate-fadeIn">Apps Privacy Policy</h1>
+            <p class="text-xl max-w-3xl mx-auto animate-fadeIn delay-100">Privacy policies for our mobile applications</p>
+        </div>
+    </section>
+
+    <!-- Apps List Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-5xl mx-auto">
+                <div class="mb-12 text-center">
+                    <h2 class="text-3xl font-bold text-secondary mb-4">Our Applications</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Select an app below to view its privacy policy. We are committed to protecting your privacy and ensuring transparency in how we handle your data.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- App Card 1 -->
+                    <div class="app-card bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 flex items-start">
+                            <img src="assets/app/ninetynine_credits_legal_advice/logo.png" alt="99 Credits Legal Advice Logo" class="app-logo mr-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-secondary mb-2">99 Credits Legal Advice</h3>
+                                <p class="text-gray-600 mb-4">Legal consultation and advice app for everyday legal issues.</p>
+                                <a href="app-privacy-policy-legal-advice.html" class="text-primary font-medium hover:underline flex items-center">
+                                    <span>Privacy Policy</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- No modal needed anymore as we're using separate pages -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="footer-heading">Ninety Nine Credits</h3>
+                    <p class="text-gray-400 mb-4">Creating innovative mobile solutions that transform businesses and delight users worldwide.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                        <li><a href="https://play.google.com/store/apps/dev?id=6637659798531987092" target="_blank" class="footer-link">Our Apps</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Legal -->
+                <div>
+                    <h3 class="footer-heading">Legal</h3>
+                    <ul>
+                        <li><a href="privacy-policy.html" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html" class="footer-link">Terms of Service</a></li>
+                        <li><a href="disclaimer.html" class="footer-link">Disclaimer</a></li>
+                        <li><a href="apps-privacy-policy.html" class="footer-link">Apps Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3 text-primary"></i>
+                            <a href="mailto:kumar.ujjawal247@gmail.com" class="footer-link">kumar.ujjawal247@gmail.com</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fab fa-google-play mt-1 mr-3 text-primary"></i>
+                            <a href="https://play.google.com/store/apps/dev?id=6637659798531987092" target="_blank" class="footer-link">Google Play Store</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500">
+                <p>&copy; 2023 Ninety Nine Credits. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <!-- No modal scripts needed anymore as we're using separate pages -->
+</body>
+</html>
